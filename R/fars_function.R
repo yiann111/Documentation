@@ -1,8 +1,11 @@
 
 #'fars_read() Function to read in data from the working directory.
 #'@description
-#'A simple function to read in  a data file in the form of csv.bz2 using the functionality
-#'readr::read_csv function. It throws an error, in case the file specified is not existent in the working directory
+#'A simple function to read in  a data file in the form of csv.bz2 using the functionality of the
+#'readr::read_csv function. It throws an error, in case the file specified is not existent in the working directory.
+#'All test data are included in the package and can be accessed from the US National Highway Traffic Safety Administration's
+#'Fatality Analysis Reporting System
+
 #' @param
 #' filename. As input serves the string of the filename, which is a compressed csv file
 #' @returns

@@ -1,0 +1,179 @@
+#' @title accident_2013.csv.bz2"
+#' @description A .csv file of 50 variables serving as one of three files bundled with package
+#' @format A .csv file 30202 rows and 50 variables: chr  (3): TWAY_ID, TWAY_ID2, RAIL,dbl (47):....
+#' \describe{
+#'   \item{\code{STATE}}{State Number}
+#'   \item{\code{ST_CASE}}{Consecutive Number}
+#'   \item{\code{VE_TOTAL}}{Number of Vehicle Forms Submitted- ALL}
+#'   \item{\code{VE_FORMS}}{Number of Motor Vehicles In-Transport (MVIT)}
+#'   \item{\code{PVH_INVL}}{Number of Parked/Working Vehicles}
+#'   \item{\code{PEDS}}{Number of Forms Submitted for Persons Not in Motor Vehicles}
+#'   \item{\code{PERNOTMVIT}}{Number of Persons Not in Motor Vehicles In-Transport (MVIT)
+#'   \item{\code{PERMVIT}}{Number of Persons in Motor Vehicles In-Transport (MVIT)}
+#'   \item{\code{PERSONS}}{Number of Forms Submitted for Persons in Motor Vehicles}
+#'   \item{\code{COUNTY}}{County}
+#'   \item{\code{CITY}}{City}
+#'   \item{\code{DAY}}{Day of Crash}
+#'   \item{\code{MONTH}}{Month of Crash}
+#'   \item{\code{YEAR}}{Year of Crash}
+#'   \item{\code{DAY_WEEK}}{Day of Week}
+#'   \item{\code{HOUR}}{Hour of Crash}
+#'   \item{\code{MINUTE}}{Minute of Crash}
+#'   \item{\code{NHS}}{National Highway System}
+#'   \item{\code{ROAD_FNC}}{Roadway Function Class (discontinued)}
+#'   \item{\code{ROUTE}}{Route Signing}
+#'   \item{\code{TWAY_ID}}{Trafficway Identifier}
+#'   \item{\code{TWAY_ID2}}{Trafficway Identifier}
+#'   \item{\code{MILEPT}}{Milepoint}
+#'   \item{\code{LATITUDE}}{Latitude}
+#'   \item{\code{LONGITUD}}{Longitude}
+#'   \item{\code{SP_JUR}}{Special Jurisdiction}
+#'   \item{\code{HARM_EV}}{First Harmful Event}
+#'   \item{\code{MAN_COLL}}{Manner of Collision of the First Harmful Event}
+#'   \item{\code{RELJCT1}}{Relation to Junction- Within Interchange Area}
+#'   \item{\code{RELJCT2}}{Relation to Junction- Specific Location}
+#'   \item{\code{TYP_INT}}{Type of Intersection}
+#'   \item{\code{WRK_ZONE}}{Work Zone}
+#'   \item{\code{REL_ROAD}}{Relation to Trafficway}
+#'   \item{\code{LGT_COND}}{Light Condition}
+#'   \item{\code{WEATHER1}}{Atmospheric Conditions (discontinued)}
+#'   \item{\code{WEATHER2}}{Atmospheric Conditions (discontinued)}
+#'   \item{\code{WEATHER}}{Atmospheric Conditions}
+#'   \item{\code{SCH_BUS}}{School Bus Related}
+#'   \item{\code{RAIL}}{Rail Grade Crossing Identifier}
+#'   \item{\code{NOT_HOUR}}{Hour of Notification}
+#'   \item{\code{NOT_MIN}}{Minute of Notification}
+#'   \item{\code{ARR_HOUR}}{Hour of Arrival at Scene}
+#'   \item{\code{ARR_MIN}}{Minute of Arrival at Scene}
+#'   \item{\code{HOSP_HR}}{Hour of EMS Arrival at Hospital}
+#'   \item{\code{HOSP_MN}}{Minute of EMS Arrival at Hospital}
+#'   \item{\code{CF1}}{Related Factors- Crash Level (discontinued)}
+#'   \item{\code{CF2}}{Related Factors- Crash Level (discontinued)}
+#'   \item{\code{CF3}}{Related Factors- Crash Level (discontinued)}
+#'   \item{\code{FATALS}}{Fatalities}
+#'   \item{\code{DRUNK_DR}}{Number of Drinking Drivers (discontinued)}
+#'}
+#' @source  \url{https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars}
+"accident_2013.csv.bz2"
+
+
+#' @title accident_2014.csv.bz2"
+#' @description A .csv file of 50 variables serving as one of three files bundled with package
+#' @format A .csv file 30202 rows and 50 variables: chr  (3): TWAY_ID, TWAY_ID2, RAIL,dbl (47):....
+#' \describe{
+#'   \item{\code{STATE}}{State Number}
+#'   \item{\code{ST_CASE}}{Consecutive Number}
+#'   \item{\code{VE_TOTAL}}{Number of Vehicle Forms Submitted- ALL}
+#'   \item{\code{VE_FORMS}}{Number of Motor Vehicles In-Transport (MVIT)}
+#'   \item{\code{PVH_INVL}}{Number of Parked/Working Vehicles}
+#'   \item{\code{PEDS}}{Number of Forms Submitted for Persons Not in Motor Vehicles}
+#'   \item{\code{PERNOTMVIT}}{Number of Persons Not in Motor Vehicles In-Transport (MVIT)
+#'   \item{\code{PERMVIT}}{Number of Persons in Motor Vehicles In-Transport (MVIT)}
+#'   \item{\code{PERSONS}}{Number of Forms Submitted for Persons in Motor Vehicles}
+#'   \item{\code{COUNTY}}{County}
+#'   \item{\code{CITY}}{City}
+#'   \item{\code{DAY}}{Day of Crash}
+#'   \item{\code{MONTH}}{Month of Crash}
+#'   \item{\code{YEAR}}{Year of Crash}
+#'   \item{\code{DAY_WEEK}}{Day of Week}
+#'   \item{\code{HOUR}}{Hour of Crash}
+#'   \item{\code{MINUTE}}{Minute of Crash}
+#'   \item{\code{NHS}}{National Highway System}
+#'   \item{\code{ROAD_FNC}}{Roadway Function Class (discontinued)}
+#'   \item{\code{ROUTE}}{Route Signing}
+#'   \item{\code{TWAY_ID}}{Trafficway Identifier}
+#'   \item{\code{TWAY_ID2}}{Trafficway Identifier}
+#'   \item{\code{MILEPT}}{Milepoint}
+#'   \item{\code{LATITUDE}}{Latitude}
+#'   \item{\code{LONGITUD}}{Longitude}
+#'   \item{\code{SP_JUR}}{Special Jurisdiction}
+#'   \item{\code{HARM_EV}}{First Harmful Event}
+#'   \item{\code{MAN_COLL}}{Manner of Collision of the First Harmful Event}
+#'   \item{\code{RELJCT1}}{Relation to Junction- Within Interchange Area}
+#'   \item{\code{RELJCT2}}{Relation to Junction- Specific Location}
+#'   \item{\code{TYP_INT}}{Type of Intersection}
+#'   \item{\code{WRK_ZONE}}{Work Zone}
+#'   \item{\code{REL_ROAD}}{Relation to Trafficway}
+#'   \item{\code{LGT_COND}}{Light Condition}
+#'   \item{\code{WEATHER1}}{Atmospheric Conditions (discontinued)}
+#'   \item{\code{WEATHER2}}{Atmospheric Conditions (discontinued)}
+#'   \item{\code{WEATHER}}{Atmospheric Conditions}
+#'   \item{\code{SCH_BUS}}{School Bus Related}
+#'   \item{\code{RAIL}}{Rail Grade Crossing Identifier}
+#'   \item{\code{NOT_HOUR}}{Hour of Notification}
+#'   \item{\code{NOT_MIN}}{Minute of Notification}
+#'   \item{\code{ARR_HOUR}}{Hour of Arrival at Scene}
+#'   \item{\code{ARR_MIN}}{Minute of Arrival at Scene}
+#'   \item{\code{HOSP_HR}}{Hour of EMS Arrival at Hospital}
+#'   \item{\code{HOSP_MN}}{Minute of EMS Arrival at Hospital}
+#'   \item{\code{CF1}}{Related Factors- Crash Level (discontinued)}
+#'   \item{\code{CF2}}{Related Factors- Crash Level (discontinued)}
+#'   \item{\code{CF3}}{Related Factors- Crash Level (discontinued)}
+#'   \item{\code{FATALS}}{Fatalities}
+#'   \item{\code{DRUNK_DR}}{Number of Drinking Drivers (discontinued)}
+#'}
+#' @source  \url{https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars}
+"accident_2014.csv.bz2"
+
+
+#' @title accident_2015.csv.bz2"
+#' @description A .csv file of 50 variables serving as one of three files bundled with package
+#' @format A .csv file 30202 rows and 50 variables: chr  (3): TWAY_ID, TWAY_ID2, RAIL,dbl (49):....
+#' \describe{
+#'   #'   \item{\code{STATE}}{State Number}
+#'   \item{\code{ST_CASE}}{Consecutive Number}
+#'   \item{\code{VE_TOTAL}}{Number of Vehicle Forms Submitted- ALL}
+#'   \item{\code{VE_FORMS}}{Number of Motor Vehicles In-Transport (MVIT)}
+#'   \item{\code{PVH_INVL}}{Number of Parked/Working Vehicles}
+#'   \item{\code{PEDS}}{Number of Forms Submitted for Persons Not in Motor Vehicles}
+#'   \item{\code{PERNOTMVIT}}{Number of Persons Not in Motor Vehicles In-Transport (MVIT)
+#'   \item{\code{PERMVIT}}{Number of Persons in Motor Vehicles In-Transport (MVIT)}
+#'   \item{\code{PERSONS}}{Number of Forms Submitted for Persons in Motor Vehicles}
+#'   \item{\code{COUNTY}}{County}
+#'   \item{\code{CITY}}{City}
+#'   \item{\code{DAY}}{Day of Crash}
+#'   \item{\code{MONTH}}{Month of Crash}
+#'   \item{\code{YEAR}}{Year of Crash}
+#'   \item{\code{DAY_WEEK}}{Day of Week}
+#'   \item{\code{HOUR}}{Hour of Crash}
+#'   \item{\code{MINUTE}}{Minute of Crash}
+#'   \item{\code{NHS}}{National Highway System}
+#'   \item{\code{ROAD_FNC}}{Roadway Function Class (discontinued)}
+#'   \item{\code{ROUTE}}{Route Signing}
+#'   \item{\code{TWAY_ID}}{Trafficway Identifier}
+#'   \item{\code{TWAY_ID2}}{Trafficway Identifier}
+#'   \item{\code{MILEPT}}{Milepoint}
+#'   \item{\code{LATITUDE}}{Latitude}
+#'   \item{\code{LONGITUD}}{Longitude}
+#'   \item{\code{SP_JUR}}{Special Jurisdiction}
+#'   \item{\code{HARM_EV}}{First Harmful Event}
+#'   \item{\code{MAN_COLL}}{Manner of Collision of the First Harmful Event}
+#'   \item{\code{RELJCT1}}{Relation to Junction- Within Interchange Area}
+#'   \item{\code{RELJCT2}}{Relation to Junction- Specific Location}
+#'   \item{\code{TYP_INT}}{Type of Intersection}
+#'   \item{\code{WRK_ZONE}}{Work Zone}
+#'   \item{\code{REL_ROAD}}{Relation to Trafficway}
+#'   \item{\code{LGT_COND}}{Light Condition}
+#'   \item{\code{WEATHER1}}{Atmospheric Conditions (discontinued)}
+#'   \item{\code{WEATHER2}}{Atmospheric Conditions (discontinued)}
+#'   \item{\code{WEATHER}}{Atmospheric Conditions}
+#'   \item{\code{SCH_BUS}}{School Bus Related}
+#'   \item{\code{RAIL}}{Rail Grade Crossing Identifier}
+#'   \item{\code{NOT_HOUR}}{Hour of Notification}
+#'   \item{\code{NOT_MIN}}{Minute of Notification}
+#'   \item{\code{ARR_HOUR}}{Hour of Arrival at Scene}
+#'   \item{\code{ARR_MIN}}{Minute of Arrival at Scene}
+#'   \item{\code{HOSP_HR}}{Hour of EMS Arrival at Hospital}
+#'   \item{\code{HOSP_MN}}{Minute of EMS Arrival at Hospital}
+#'   \item{\code{CF1}}{Related Factors- Crash Level (discontinued)}
+#'   \item{\code{CF2}}{Related Factors- Crash Level (discontinued)}
+#'   \item{\code{CF3}}{Related Factors- Crash Level (discontinued)}
+#'   \item{\code{FATALS}}{Fatalities}
+#'   \item{\code{DRUNK_DR}}{Number of Drinking Drivers (discontinued)}
+#'   \item{\code{RUR_URB}}{Land Use}
+#'   \item{\code{FUNC_SYS}}{Functional System}
+#'   \item{\code{RD_OWNER}}{Ownership}
+#'
+#'}
+#' @source  \url{https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars}
+"accident_2015.csv.bz2"

@@ -7,3 +7,5 @@ accident_2015.csv.bz2 <-read_csv("./data-raw/accident_2015.csv.bz2") %>% write_c
 usethis::use_data(accident_2013.csv.bz2, overwrite = TRUE)
 usethis::use_data(accident_2014.csv.bz2, overwrite = TRUE)
 usethis::use_data(accident_2015.csv.bz2, overwrite = TRUE)
+
+
