@@ -1,5 +1,5 @@
 ^Documentation\.Rproj$
-^\.Rproj\.user$
+^\.Rproj\.yiann111$
 ^data-raw$
 ^\.travis\.yml$
 language: R
