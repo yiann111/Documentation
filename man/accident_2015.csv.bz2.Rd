@@ -7,13 +7,13 @@
 \format{
 A .csv file 30202 rows and 50 variables: chr  (3): TWAY_ID, TWAY_ID2, RAIL,dbl (49)
 \describe{
-#'   \item{\code{STATE}}{State Number}
+\item{\code{STATE}}{State Number}
 \item{\code{ST_CASE}}{Consecutive Number}
 \item{\code{VE_TOTAL}}{Number of Vehicle Forms Submitted- ALL}
 \item{\code{VE_FORMS}}{Number of Motor Vehicles In-Transport (MVIT)}
 \item{\code{PVH_INVL}}{Number of Parked/Working Vehicles}
 \item{\code{PEDS}}{Number of Forms Submitted for Persons Not in Motor Vehicles}
-\item{\code{PERNOTMVIT}}{Number of Persons Not in Motor Vehicles In-Transport (MVIT)
+\item{\code{PERNOTMVIT}}{Number of Persons Not in Motor Vehicles In-Transport (MVIT)}
 \item{\code{PERMVIT}}{Number of Persons in Motor Vehicles In-Transport (MVIT)}
 \item{\code{PERSONS}}{Number of Forms Submitted for Persons in Motor Vehicles}
 \item{\code{COUNTY}}{County}
