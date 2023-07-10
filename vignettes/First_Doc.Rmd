@@ -17,3 +17,13 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(Documentation)
 ```
+**Explanatory Notes
+
+This slim package consists of a compilation of functions that help the user to implement basic jobs with data provided from the US National Highway Traffic Safety Administration's 
+Fatality Analysis Reporting System. A sample of the data is integrated with package to serve as a testing ground and appropriate documentation is present for both the functions and the data types, which can be accessed in the usual syntax form: ?"name of data or function".
+
+***Data
+
+- accident_2013.csv.bz2
+- accident_2014.csv.bz2
+- accident_2015.csv.bz2

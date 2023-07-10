@@ -3,3 +3,4 @@
 language: R
 cache: packages
 warnings_are_errors: false
+osx_image: xcode11.3
