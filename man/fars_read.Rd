@@ -7,7 +7,7 @@
 fars_read(filename)
 }
 \arguments{
-\item{filename.}{As input serves the string of the filename, which is a compressed csv file}
+\item{filename}{as input serves the string of the filename, which is a compressed .csv file}
 }
 \value{
 Returns a tibble of various attributes of the data. We're only interested in the

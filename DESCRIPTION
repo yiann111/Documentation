@@ -1,10 +1,12 @@
 Package: Documentation
-Title: What the Package Does (One Line, Title Case)
+Title: Functions to provide specific statistics and plot about traffic accidents in U.S.
 Version: 0.0.0.9000
 Authors@R: 
     person("Yiannis", "Papastefanou", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: A COMPILATION OF FUNCTIONS .....
+Description: A COMPILATION OF FUNCTIONS to access data from the US National Highway Traffic Safety Administration's 
+Fatality Analysis Reporting System
+
 License: use_gpl3_license() 
 Imports: dplyr, maps, readr, tidyr,magrittr
 Encoding: UTF-8

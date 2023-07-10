@@ -1,13 +1,11 @@
 
 #'fars_read() Function to read in data from the working directory.
 #'@description
-#'A simple function to read in  a data file in the form of csv.bz2 using the functionality of the
-#'readr::read_csv function. It throws an error, in case the file specified is not existent in the working directory.
-#'All test data are included in the package and can be accessed from the US National Highway Traffic Safety Administration's
-#'Fatality Analysis Reporting System
-
+#' A simple function to read in  a data file in the form of csv.bz2 using the functionality of the
+#' readr::read_csv function. It throws an error, in case the file specified is not existent in the working directory
+#' All test data are included in the package and can be accessed from the `US National Highway Traffic Safety Administration\'s Fatality Analysis Reporting System`.
 #' @param
-#' filename as input serves the string of the filename, which is a compressed .csv file
+#' filename as input serves the string of the filename, which is a compressed csv file
 #' @returns
 #' Returns a tibble of various attributes of the data. We're only interested in the
 #' columns" STATE, MONTH & YEAR, which provide geolocation info about accidents
@@ -16,6 +14,8 @@
 #' @importFrom readr read_csv
 #' @examples
 #' fars_read("accident_2013.csv.bz2")
+#'
+#'
 #'
 #'
 #'\dontrun{
@@ -50,7 +50,7 @@ fars_read <- function(filename) {
 #' make_filename(2013)
 #'
 #' "It can also be used as a helper function, for example in reading in files with `fars_read()` "
-#' \code{\link{fars_read(make_filename(2013))}}
+#'fars_read(make_filename(2013))
 #'
 #'
 make_filename <- function(year) {

@@ -5,3 +5,4 @@
 language: R
 cache: packages
 ^\.github$
+^\.Rproj\.user$
