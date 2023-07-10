@@ -7,7 +7,7 @@
 #'Fatality Analysis Reporting System
 
 #' @param
-#' filename. As input serves the string of the filename, which is a compressed csv file
+#' filename as input serves the string of the filename, which is a compressed .csv file
 #' @returns
 #' Returns a tibble of various attributes of the data. We're only interested in the
 #' columns" STATE, MONTH & YEAR, which provide geolocation info about accidents
