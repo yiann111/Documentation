@@ -49,7 +49,7 @@ fars_read <- function(filename) {
 #' @examples
 #' make_filename(2013)
 #'
-#' "It can also be used as a helper function, for example in reading in files with `fars_read()` "
+#'"It can also be used as a helper function, for example in reading in files with `fars_read()` "
 #'fars_read(make_filename(2013))
 #'
 #'
@@ -181,6 +181,7 @@ fars_summarize_years <- function(years) {
 #' }
 #'
 fars_map_state <- function(state.num, year) {
+    STATE <- vector()
     filename <- make_filename(year)
     data <- fars_read(filename)
     state.num <- as.integer(state.num)

@@ -5,8 +5,6 @@ Authors@R:
     person("Yiannis", "Papastefanou", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: A COMPILATION OF FUNCTIONS to access data from the US National Highway Traffic Safety Administration's 
-Fatality Analysis Reporting System
-
 License: use_gpl3_license() 
 Imports: dplyr, maps, readr, tidyr,magrittr
 Encoding: UTF-8

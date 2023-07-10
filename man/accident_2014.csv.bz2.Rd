@@ -5,7 +5,7 @@
 \alias{accident_2014.csv.bz2}
 \title{accident_2014.csv.bz2"}
 \format{
-#' A .csv file 30202 rows and 50 variables: chr  (3): TWAY_ID, TWAY_ID2, RAIL,dbl (47):....
+A .csv file 30202 rows and 50 variables: chr  (3): TWAY_ID, TWAY_ID2, RAIL,dbl (47):....
 \describe{
 \item{\code{STATE}}{State Number}
 \item{\code{ST_CASE}}{Consecutive Number}
@@ -66,6 +66,6 @@
 accident_2014.csv.bz2
 }
 \description{
-A .csv file of 50 variables serving as one of three files bundled with package
+A csv file of 50 variables serving as one of three files bundled with package
 }
 \keyword{datasets}
