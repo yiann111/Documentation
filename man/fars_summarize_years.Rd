@@ -22,6 +22,7 @@ of the tidyr package.
 These functions ARE NOT TO BE USED INTERACTIVELY, because each one of them encapsulates the previous one
 }
 \examples{
-fars_summarize_years(c(2013,2014,2015))
+library(Documentation)
+\dontrun{fars_summarize_years(c(2013,2014,2015))}
 
 }

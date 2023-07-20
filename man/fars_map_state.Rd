@@ -28,7 +28,9 @@ Data are filtered for the specific state.num provided with dplyr::filter
 These functions ARE NOT TO BE USED INTERACTIVELY, because each one of them encapsulates the previous one
 }
 \examples{
-\donttest{fars_map_state(20,2013)}
+
+\dontrun{
+fars_map_state(20,2013)}
 "Plots a map of points representing accident location in the State"
 \dontrun{
 

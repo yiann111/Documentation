@@ -22,6 +22,7 @@ necessary columns , i.e. Month & year
 These functions ARE NOT TO BE USED INTERACTIVELY, because each one of them encapsulates the previous one
 }
 \examples{
+library(Documentation)
 fars_read_years(c(2013,2014))
 \dontrun{
 "Catches an error in case an invalid year is specified, without stopping the code execution

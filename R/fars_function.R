@@ -10,10 +10,12 @@
 #' Returns a tibble of various attributes of the data. We're only interested in the
 #' columns" STATE, MONTH & YEAR, which provide geolocation info about accidents
 #' @export
+#' @import devtools
 #' @importFrom dplyr tbl_df
 #' @importFrom readr read_csv
 #' @examples
-#' fars_read("accident_2013.csv.bz2")
+#' library(Documentation)
+#' \dontrun{fars_read("accident_2013.csv.bz2")}
 #'
 #'
 #'
@@ -50,7 +52,7 @@ fars_read <- function(filename) {
 #' make_filename(2013)
 #'
 #'"It can also be used as a helper function, for example in reading in files with `fars_read()` "
-#'fars_read(make_filename(2013))
+#'\dontrun{fars_read(make_filename(2013))}
 #'
 #'
 make_filename <- function(year) {
@@ -82,6 +84,7 @@ make_filename <- function(year) {
 #'
 #' @importFrom dplyr mutate select n
 #' @examples
+#' library(Documentation)
 #' fars_read_years(c(2013,2014))
 #' \dontrun{
 #' "Catches an error in case an invalid year is specified, without stopping the code execution
@@ -90,6 +93,8 @@ make_filename <- function(year) {
 #' }
 
 fars_read_years <- function(years) {
+    MONTH <- vector()
+    year <- vector()
     lapply(years, function(year) {
         file <- make_filename(year)
         tryCatch({
@@ -129,9 +134,12 @@ fars_read_years <- function(years) {
 #' @importFrom tidyr spread
 #' @importFrom magrittr %>%
 #' @examples
-#' fars_summarize_years(c(2013,2014,2015))
+#' library(Documentation)
+#' \dontrun{fars_summarize_years(c(2013,2014,2015))}
 #'
 fars_summarize_years <- function(years) {
+    MONTH <- vector()
+    year <- vector()
     dat_list <- fars_read_years(years)
     dplyr::bind_rows(dat_list) %>%
         dplyr::group_by(year, MONTH) %>%
@@ -169,7 +177,9 @@ fars_summarize_years <- function(years) {
 #' @importFrom maps map
 #' @importFrom graphics points
 #' @examples
-#' \donttest{fars_map_state(20,2013)}
+#'
+#' \dontrun{
+#' fars_map_state(20,2013)}
 #'"Plots a map of points representing accident location in the State"
 #' \dontrun{
 #'
@@ -181,6 +191,8 @@ fars_summarize_years <- function(years) {
 #' }
 #'
 fars_map_state <- function(state.num, year) {
+
+
     STATE <- vector()
     filename <- make_filename(year)
     data <- fars_read(filename)

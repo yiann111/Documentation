@@ -19,7 +19,8 @@ readr::read_csv function. It throws an error, in case the file specified is not 
 All test data are included in the package and can be accessed from the \verb{US National Highway Traffic Safety Administration\\'s Fatality Analysis Reporting System}.
 }
 \examples{
-fars_read("accident_2013.csv.bz2")
+library(Documentation)
+\dontrun{fars_read("accident_2013.csv.bz2")}
 
 
 

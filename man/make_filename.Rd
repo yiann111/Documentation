@@ -21,7 +21,7 @@ appropriately composed, so as to conform with the filenames of the compressed fi
 make_filename(2013)
 
 "It can also be used as a helper function, for example in reading in files with `fars_read()` "
-fars_read(make_filename(2013))
+\dontrun{fars_read(make_filename(2013))}
 
 
 }
