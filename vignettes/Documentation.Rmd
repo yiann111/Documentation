@@ -3,7 +3,7 @@ title: "Attempt to documentation"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Attempt to documentation}
-  %\VignetteEngine{rmarkdown::render}
+  %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
