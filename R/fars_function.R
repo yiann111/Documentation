@@ -17,19 +17,18 @@
 #' library(Documentation)
 #' \dontrun{fars_read("accident_2013.csv.bz2")}
 #'
-#'
-#'
-#'
 #'\dontrun{
 #'"Throws an error in case of no existent files"
 #'   fars_read("accident_2012.csv.bz2")
 #'}
 #'
+#' #we must moderately alter this function, in order to accomidate files in a different directory
+#' #than the top directory
 fars_read <- function(filename) {
-    if(!file.exists(filename))
+    if(!file.exists(paste0("./data-raw/",filename,collapse = "")))
         stop("file '", filename, "' does not exist")
     data <- suppressMessages({
-        readr::read_csv(filename, progress = FALSE)
+        readr::read_csv(paste0("./data-raw/",filename,collapse = ""), progress = FALSE)
     })
     dplyr::tbl_df(data)
 }
@@ -58,6 +57,7 @@ fars_read <- function(filename) {
 make_filename <- function(year) {
     year <- as.integer(year)
     sprintf("accident_%d.csv.bz2", year)
+
 }
 
 
@@ -70,7 +70,7 @@ make_filename <- function(year) {
 #'@description
 #' It accepts a vector of numeric values that must correspond to year notation YYYY, e.g. 2013
 #' It returns a list of three tibbles, each comprised of two columns, namely: MONTH & year, which themselves are numeric columns
-#' it uses the vectorised function to lapply, which is applied on the input vector and retrieves the
+#' it uses the vectorised function  lapply, which is applied on the input vector and retrieves the
 #' necessary columns , i.e. Month & year
 #'
 #' @param

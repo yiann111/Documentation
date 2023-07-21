@@ -7,13 +7,14 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+
+
 ```{r, include = FALSE,echo=FALSE}
 
-
-
-knitr::opts_chunk$set(
+knitr::opts_knit$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+ root.dir ="../"
  
 )
 ```
@@ -32,17 +33,45 @@ Fatality Analysis Reporting System. A sample of the data is integrated with pack
 - accident_2013.csv.bz2
 - accident_2014.csv.bz2
 - accident_2015.csv.bz2
-```{r data_exposure}
+```{r data_exposure,echo=FALSE}
 
-setwd("/Users/giannis/Desktop/Practising/Documentation")
-fars_read("accident_2013.csv.bz2")
+
+suppressWarnings({fars_read("accident_2013.csv.bz2")})
 
 ```
 
 
-The data are in .csv format, compressed and can be read in with the function `fars_read` which accepts the appropriate filename in quotes, i.e.
+The data are in .csv format, compressed and can be read in with the function `fars_read()` which accepts the appropriate filename in quotes, i.e.*`fars_read("accident_2013.csv.bz2")`*
+The function will return an error in case the file is not found, that is, if you type a non existent file like `accident_2012.csv.bz2` 
+```{r, echo=FALSE,error=TRUE}
+eval(fars_read("accident_2012.csv.bz2"))
+```
+The function `fars_read()` along with `make_filename()` are implemented as *Helper Functions* within the machinery of three other functions but can be handled by the user, as well, to ease out typing, for example you can type `fars_read(make_filename(2013))` to read-in the corresponding file for the year 2013.
 
-  
+Functions `fars_read_years()` & `fars_summarize_years` provide statistical summaries of the accidents revolving around the factors-variables **month and year**, with the second function going a second level up, by summing up the output of the first and laying out the total number of accidents across all the States for each month and each year.
+Both, throw the `error` programmatically raised by `fars_read()`, in case of an missing file.
+
+##  ***EXAMPLES***
+```{r}
+fars_read_years(c(2013,2014))
+```
+
+
+```{r}
+fars_summarize_years(c(2013,2014))
+```
+
+Finally, function `fars_map_state()` plot out a diagram of the confines of the State specified and the accidents depicted a point-dots.
+Some options, which are presented in the function's documentation must be considered as limitations of the function's applicability for certain geolocations and certain States with no data. In the above situation an error is appropriately returned.
+```{r, error=TRUE}
+fars_map_state(17,2014)
+# **Erroneous application**
+# Out of bounds specified area
+fars_map_state(2,2013)
+# No data present
+fars_map_state(7,2014)
+```
+
 
 
 

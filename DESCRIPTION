@@ -2,8 +2,8 @@ Package: Documentation
 Title: Functions to provide specific statistics and plot about traffic accidents in U.S
 Version: 0.0.0.9000
 Authors@R: person("Yiannis", "Papastefanou", , "first.last@example.com", role = c("aut", "cre"),comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: A COMPILATION OF FUNCTIONS to access data from the US National Highway Traffic Safety Administration's 
-License: use_gpl_license(version = 3, include_future = TRUE)
+Description: A COMPILATION OF FUNCTIONS to access data from the US National Highway Traffic Safety Administration's. 
+License: MIT + file LICENSE
 Imports: dplyr, maps, readr, tidyr,magrittr,devtools
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

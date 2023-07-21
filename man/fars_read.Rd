@@ -22,12 +22,11 @@ All test data are included in the package and can be accessed from the \verb{US 
 library(Documentation)
 \dontrun{fars_read("accident_2013.csv.bz2")}
 
-
-
-
 \dontrun{
 "Throws an error in case of no existent files"
   fars_read("accident_2012.csv.bz2")
 }
 
+#we must moderately alter this function, in order to accomidate files in a different directory
+#than the top directory
 }

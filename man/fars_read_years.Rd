@@ -15,7 +15,7 @@ A list of tibbles of the same length as the length of the input vector
 \description{
 It accepts a vector of numeric values that must correspond to year notation YYYY, e.g. 2013
 It returns a list of three tibbles, each comprised of two columns, namely: MONTH & year, which themselves are numeric columns
-it uses the vectorised function to lapply, which is applied on the input vector and retrieves the
+it uses the vectorised function  lapply, which is applied on the input vector and retrieves the
 necessary columns , i.e. Month & year
 }
 \details{
