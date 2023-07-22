@@ -13,9 +13,8 @@ vignette: >
 
 knitr::opts_knit$set(
   collapse = TRUE,
-  comment = "#>",
- root.dir ="../"
- 
+  comment = "#>"
+  
 )
 ```
 
@@ -33,6 +32,7 @@ Fatality Analysis Reporting System. A sample of the data is integrated with pack
 - accident_2013.csv.bz2
 - accident_2014.csv.bz2
 - accident_2015.csv.bz2
+
 ```{r data_exposure,echo=FALSE}
 
 
